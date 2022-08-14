@@ -42,8 +42,12 @@ Cpf.prototype.digitos = function (cpfParcial) {
     return digitos > 9 ? "0" : String(digitos);
 };
 
-const cpf1 = new Cpf("422.697.693-30");
+const cpf1 = new Cpf("181.602.130-00");
+const cpf2 = new Cpf("787.958.832-90");
+
 
 
 console.log(cpf1.validacao());
+console.log(cpf2.validacao());
+
 
